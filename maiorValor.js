@@ -18,3 +18,5 @@ const numeros = [1, 100, 43, 19];
 const { indiceMaior, indiceMenor } = indicesMaiorEMenor(numeros);
 
 console.log(`O índice do maior valor é ${indiceMaior} e o índice do menor valor é ${indiceMenor}.`);
+
+module.exports = { indicesMaiorEMenor }

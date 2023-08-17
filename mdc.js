@@ -13,3 +13,5 @@ const numero2 = 18;
 const resultado = mdc(numero1, numero2);
 
 console.log(`MDC de ${numero1} e ${numero2} é ${resultado}`);
+
+module.exports = { mdc }

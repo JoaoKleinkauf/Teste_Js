@@ -13,3 +13,5 @@ function somarMultiplosDeCincoOuSeteAbaixoDeMil() {
 const resultado = somarMultiplosDeCincoOuSeteAbaixoDeMil();
 
 console.log(`A soma dos múltiplos de 5 ou 7 abaixo de 1000 é ${resultado}.`);
+
+module.exports = { somarMultiplosDeCincoOuSeteAbaixoDeMil }
